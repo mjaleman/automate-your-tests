@@ -1,2 +1,7 @@
 language: python
-script: echo "hello world"
+python:
+  - 3.6
+  - 3.5
+  - 3.4
+install: pip install -r requirements.txt
+script: pytest
